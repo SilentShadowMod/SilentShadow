@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "silentshadow",
+	"version": "${version}",
+	"name": "SilentShadow",
+	"description": "This is a dedicated mod to the DungeonDodge minecraft server",
+	"authors": [
+		"PikiBanana",
+		"Astral tag by: iFluxx"
+	],
+	"contact": {
+		"homepage": "https://silentshadow.github.io/",
+		"sources": "https://github.com/SilentShadowMod/SilentShadow"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/silentshadow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.pikibanana.SilentShadow"
+		]
+	},
+	"mixins": [
+		"silentshadow.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
